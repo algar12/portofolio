@@ -38,7 +38,7 @@ function About() {
           </h4>
         </div>
         <div className="about-right animate__animated animate__fadeIn animate__slower py-3">
-          <p>
+          {/* <p>
             Hi, I'm Muh Thoriq AS, a student studying Information Systems at
             Hasanuddin University. I have a strong interest in web programming
             and cloud computing. Specifically, I use a combination of
@@ -46,7 +46,7 @@ function About() {
             Node.js), and I am also knowledgeable in cloud computing using
             Google Cloud Platform (GCP), which allows me to create, manage, and
             deploy dynamic, interactive, and secure web applications.
-          </p>
+          </p> */}
 
           {/* <h4>Certificates</h4>
           <span>─────</span>
