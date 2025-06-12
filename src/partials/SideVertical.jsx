@@ -23,10 +23,10 @@ function SideVertical(props) {
       numberPage = "03";
       titlePage = "Skills";
       break;
-    case "/projects":
-      numberPage = "04";
-      titlePage = "Projects";
-      break;
+    // case "/projects":
+    //   numberPage = "04";
+    //   titlePage = "Projects";
+    //   break;
     case "/contact":
       numberPage = "05";
       titlePage = "Contact";
@@ -45,11 +45,11 @@ function SideVertical(props) {
     case "/skills":
       directUp = "/about";
       break;
-    case "/projects":
-      directUp = "/skills";
-      break;
+    // case "/projects":
+    //   directUp = "/skills";
+    //   break;
     case "/contact":
-      directUp = "/projects";
+      directUp = "/skills";
       break;
     default:
   }
@@ -63,11 +63,11 @@ function SideVertical(props) {
       directDown = "/skills";
       break;
     case "/skills":
-      directDown = "/projects";
-      break;
-    case "/projects":
       directDown = "/contact";
       break;
+    // case "/projects":
+      // directDown = "/contact";
+      // break;
     case "/contact":
       directDown = "/";
       break;
