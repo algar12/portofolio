@@ -28,7 +28,7 @@ function SideVertical(props) {
     //   titlePage = "Projects";
     //   break;
     case "/contact":
-      numberPage = "05";
+      numberPage = "04";
       titlePage = "Contact";
       break;
     default:
