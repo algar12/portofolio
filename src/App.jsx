@@ -10,6 +10,7 @@ import NavTop from "./partials/NavTop";
 import NavBot from "./partials/NavBot";
 import Footer from "./partials/Footer";
 import Home from "./components/Home";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import "./index";
 
 function App() {
@@ -22,10 +23,15 @@ function App() {
   if (preload) {
     return (
       <>
+       <HelmetProvider>
+              <Helmet>
+                <title>Ghofur - Portofolio</title>
+              </Helmet>
+            </HelmetProvider>
         <div className="preload">
           <h1>
-            <strong>Thoriq</strong>
-            <i> AS</i>.
+            <strong>M Abdul</strong>
+            <i> GHOFUR</i>.
           </h1>
           <p>─────</p>
           <Spinner animation="grow" />

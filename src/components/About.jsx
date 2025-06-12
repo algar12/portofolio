@@ -22,7 +22,7 @@ function About() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Thoriq AS - About</title>
+          <title>Ghofur - About</title>
         </Helmet>
       </HelmetProvider>
       <FsLightbox
@@ -48,7 +48,7 @@ function About() {
             deploy dynamic, interactive, and secure web applications.
           </p>
 
-          <h4>Certificates</h4>
+          {/* <h4>Certificates</h4>
           <span>─────</span>
           <div className="certificates-wrapper">
             {certificateImages
@@ -72,7 +72,7 @@ function About() {
                   {row}
                 </div>
               ))}
-          </div>
+          </div> */}
         </div>
       </Container>
     </>

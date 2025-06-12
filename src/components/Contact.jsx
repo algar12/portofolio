@@ -28,7 +28,7 @@ function Contact() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Thoriq AS - Contact</title>
+          <title>Ghofur - Contact</title>
         </Helmet>
       </HelmetProvider>
       <Container fluid className="contact-wrapper">
@@ -47,8 +47,8 @@ function Contact() {
                     <AiOutlineMail />
                     &nbsp;&nbsp;Email
                   </h3>
-                  <p>muhthoriqas1719@gmail.com</p>
-                  <CopyToClipboard text="muhthoriqas1719@gmail.com">
+                  <p>algar0940@gmail.com</p>
+                  <CopyToClipboard text="algar0940@gmail.com">
                     <button className="btn-copy" onClick={actionCopy}>
                       {alreadyCopy}&nbsp;&nbsp;
                       <FiCopy />
@@ -56,9 +56,9 @@ function Contact() {
                   </CopyToClipboard>
                 </div>
               </div>
-              <div className="col contact-col animate__animated animate__slideInRight">
+              {/* <div className="col contact-col animate__animated animate__slideInRight">
                 <div className="linkedin-wrapper">
-                  <h3>
+                   <h3>
                     <AiFillLinkedin />
                     &nbsp;&nbsp;Linkedin
                   </h3>
@@ -71,18 +71,18 @@ function Contact() {
                   >
                     Visit&nbsp;&nbsp;
                     <AiOutlineArrowRight />
-                  </a>
+                  </a> 
                 </div>
-              </div>
+              </div> */}
               <div className="col contact-col animate__animated animate__slideInLeft">
                 <div className="github-wrapper">
                   <h3>
                     <AiFillGithub />
                     &nbsp;&nbsp;GitHub
                   </h3>
-                  <p>ThoriqAS</p>
+                  <p>algar12</p>
                   <a
-                    href="https://github.com/Muhthoriqas"
+                    href="https://github.com/algar12"
                     target="_blank"
                     rel="noreferrer"
                     className="btn-direct"
@@ -98,9 +98,9 @@ function Contact() {
                     <AiFillInstagram />
                     &nbsp;&nbsp;Instagram
                   </h3>
-                  <p>mthoriq_as</p>
+                  <p>gopungs1</p>
                   <a
-                    href="https://www.instagram.com/mthoriq_as/"
+                    href="https://www.instagram.com/gopungs1"
                     target="_blank"
                     rel="noreferrer"
                     className="btn-direct"

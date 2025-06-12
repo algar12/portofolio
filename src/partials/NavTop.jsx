@@ -35,9 +35,9 @@ function NavTop() {
               <NavLink to="/skills" onClick={toogleClose}>
                 Skills
               </NavLink>
-              <NavLink to="/projects" onClick={toogleClose}>
+              {/* <NavLink to="/projects" onClick={toogleClose}>
                 Projects
-              </NavLink>
+              </NavLink> */}
               <NavLink to="/contact" onClick={toogleClose}>
                 Contact
               </NavLink>
@@ -54,7 +54,7 @@ function NavTop() {
         <Container fluid className="px-4">
           <Navbar.Brand className="navtop-brand">
             <Link to="/">
-              Thoriq<i id="normal"> AS</i>.
+              M Abdul<i id="normal"> Ghofur</i>.
             </Link>
           </Navbar.Brand>
           <button className="toogle-menu" onClick={toogleOpen}>
@@ -85,14 +85,14 @@ function NavTop() {
                 Skills
               </NavLink>
             </Nav.Link>
-            <Nav.Link className="pe-3">
+            {/* <Nav.Link className="pe-3">
               <NavLink
                 to="/projects"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 Projects
               </NavLink>
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link>
               <NavLink
                 to="/contact"
