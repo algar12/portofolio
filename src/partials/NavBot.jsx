@@ -22,12 +22,12 @@ function NavBot() {
       numberPage = "03";
       titlePage = "Skills";
       break;
-    case "/projects":
-      numberPage = "04";
-      titlePage = "Projects";
-      break;
+    // case "/projects":
+    //   numberPage = "04";
+    //   titlePage = "Projects";
+    //   break;
     case "/contact":
-      numberPage = "05";
+      numberPage = "04";
       titlePage = "Contact";
       break;
     default:
@@ -44,11 +44,11 @@ function NavBot() {
     case "/skills":
       directUp = "/about";
       break;
-    case "/projects":
-      directUp = "/skills";
-      break;
+    // case "/projects":
+    //   directUp = "/skills";
+    //   break;
     case "/contact":
-      directUp = "/projects";
+      directUp = "/skills";
       break;
     default:
   }
@@ -62,13 +62,13 @@ function NavBot() {
       directDown = "/skills";
       break;
     case "/skills":
-      directDown = "/projects";
-      break;
-    case "/projects":
       directDown = "/contact";
       break;
+    // case "/projects":
+    //   directDown = "/contact";
+    //   break;
     case "/contact":
-      directDown = "/";
+      directDown = "/skills";
       break;
     default:
   }
@@ -79,7 +79,7 @@ function NavBot() {
         <div className="navbot-left d-flex">
           <p className="navbot-title">{titlePage}</p>
           <p className="navbot-number">
-            {numberPage} <span className="disabled-color">/ 05</span>
+            {numberPage} <span className="disabled-color">/ 04</span>
           </p>
         </div>
         <div className="navbot-right d-flex">
