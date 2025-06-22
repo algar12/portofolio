@@ -48,7 +48,7 @@ function NavBot() {
     //   directUp = "/skills";
     //   break;
     case "/contact":
-      directUp = "/skills";
+      directUp = "/";
       break;
     default:
   }
@@ -68,7 +68,7 @@ function NavBot() {
     //   directDown = "/contact";
     //   break;
     case "/contact":
-      directDown = "/skills";
+      directDown = "/";
       break;
     default:
   }
